@@ -1,4 +1,4 @@
-# yaac - Yet another ACME client
+ACME client,  forked from [Afosto/Yaac](https://github.com/afosto/yaac)
 
 Written in PHP, this client aims to be a simplified and decoupled Let’s Encrypt client, based on [ACME V2](https://tools.ietf.org/html/rfc8555).
 
