@@ -1,26 +1,26 @@
 {
-  "name": "afosto/yaac",
+  "name": "digicatech/yaac",
   "description": "Yet Another ACME client: a decoupled LetsEncrypt client",
   "type": "package",
   "keywords": [
-    "afosto",
+    "digicatech",
     "lets",
     "acme",
     "acmev2",
     "v2",
     "encrypt"
   ],
-  "homepage": "https://afosto.com",
-  "license": "Apache-2.0",
+  "homepage": "https://www.digicatech.com",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Afosto Team",
-      "homepage": "https://afosto.com"
+      "name": "Digicatech Team",
+      "homepage": "https://www.digicatech.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Afosto\\Acme\\": "./src"
+      "Digicatech\\Acme\\": "./src"
     }
   },
   "require": {

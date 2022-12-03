@@ -1,4 +1,4 @@
-ACME client,  forked from [Afosto/Yaac](https://github.com/afosto/yaac)
+ACME client,  forked from [Digicatech/Yaac](https://github.com/afosto/yaac)
 
 Written in PHP, this client aims to be a simplified and decoupled Let’s Encrypt client, based on [ACME V2](https://tools.ietf.org/html/rfc8555).
 
@@ -44,7 +44,7 @@ decide whether you want to issue `Fake LE Intermediate X1` (staging: `MODE_STAGI
 ```php
 use League\Flysystem\Filesystem;
 use League\Flysystem\Adapter\Local;
-use Afosto\Acme\Client;
+use Digicatech\Acme\Client;
  
 //Prepare flysystem
 $adapter = new Local('data');
@@ -200,12 +200,3 @@ file_put_contents('private.key', $certificate->getPrivateKey());
 >$domainCertificate = $certificate->getCertificate(false);
 >$intermediateCertificate = $certificate->getIntermediate();
 >```
-
-### Who is using it?
-
-Are you using this package, would love to know. Please send a PR to enlist your project or company. 
-- [Afosto SaaS BV](https://afosto.com)
-- [Web Whales](https://webwhales.nl)
-- [do.de](https://www.do.de)
-- [punchsalad.com](https://punchsalad.com/ssl-certificate-generator/)
-- [SslForWeb](https://sslforweb.com)

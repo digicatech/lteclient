@@ -1,6 +1,6 @@
 <?php
 
-namespace Afosto\Acme\Data;
+namespace Digicatech\Acme\Data;
 
 class Account
 {

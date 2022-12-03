@@ -1,12 +1,12 @@
 <?php
 
-namespace Afosto\Acme;
+namespace Digicatech\Acme;
 
-use Afosto\Acme\Data\Account;
-use Afosto\Acme\Data\Authorization;
-use Afosto\Acme\Data\Certificate;
-use Afosto\Acme\Data\Challenge;
-use Afosto\Acme\Data\Order;
+use Digicatech\Acme\Data\Account;
+use Digicatech\Acme\Data\Authorization;
+use Digicatech\Acme\Data\Certificate;
+use Digicatech\Acme\Data\Challenge;
+use Digicatech\Acme\Data\Order;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\RequestException;

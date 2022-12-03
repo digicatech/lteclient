@@ -1,9 +1,9 @@
 <?php
 
-namespace Afosto\Acme\Data;
+namespace Digicatech\Acme\Data;
 
-use Afosto\Acme\Client;
-use Afosto\Acme\Helper;
+use Digicatech\Acme\Client;
+use Digicatech\Acme\Helper;
 
 class Authorization
 {
