@@ -9,7 +9,7 @@ data (the certificate and private key).
 
 ## Why
 
-Why would I need this package? At Afosto we run our software in a multi-tenant setup, as any other SaaS would do, and
+Why would I need this package? At Digicatech we run our software in a multi-tenant setup, as any other SaaS would do, and
 therefore we cannot make use of the many clients that are already out there. 
 
 Almost all clients are coupled to a type of webserver or a fixed (set of) domain(s). This package can be extremely 
@@ -32,7 +32,7 @@ client and you can start requesting certificates.
 
 Installing this package is done easily with composer. 
 ```bash
-composer require afosto/yaac
+composer require digicatech/yaac
 ```
 
 ### Instantiate the client
